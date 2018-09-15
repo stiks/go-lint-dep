@@ -9,8 +9,15 @@ Features:
 
 ## How it works
 
-Check your project health status:
-
+Use om ypur image:
 ```
-FROM stiks/go-lint/dep
+FROM stiks/go-lint-dep
+```
+
+
+Or if you using CI:
+```
+
+image: stiks/go-lint/dep
+
 ```
