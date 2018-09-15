@@ -2,7 +2,7 @@ FROM golang:1.10-alpine
 
 MAINTAINER Kirill Garbar <kirill@iterium.co.uk>
 
-RUN apk add --no-cache git
+RUN apk add --no-cache git make
 
 # Install golint
 ENV GOPATH /go
