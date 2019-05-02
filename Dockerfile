@@ -7,5 +7,5 @@ RUN apk add --no-cache git make
 # Install golint
 ENV GOPATH /go
 ENV PATH ${GOPATH}/bin:$PATH
-RUN go get -u github.com/golang/lint/golint
+RUN go get -u golang.org/x/lint/golint
 RUN go get -u github.com/kyoh86/richgo
